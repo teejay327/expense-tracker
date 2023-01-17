@@ -10,11 +10,11 @@ const ExpenseForm = () => {
     setEnteredTitle(event.target.value);
   }
 
-    const amountChangeHandler = (event) => {
+  const amountChangeHandler = (event) => {
     setEnteredAmount(event.target.value);
   }
 
-   const dateChangeHandler = (event) => {
+  const dateChangeHandler = (event) => {
     setEnteredDate(event.target.value);
   }
 
@@ -31,7 +31,7 @@ const ExpenseForm = () => {
       </div>
       <div className="new-expense__control">
         <label>Date</label>
-        <input type='date' min="2019-01-01" max="2023-12-31" onChange={ dateChangeHandler }/>
+        <input type='date' min="2019-01-01" max="2025-12-31" onChange={ dateChangeHandler }/>
       </div>
     </div>
     <div className="new-expense__actions">
