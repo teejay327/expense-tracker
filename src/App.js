@@ -27,9 +27,15 @@ const DUMMY_EXPENSES = [
   },
   {
     id: 'e5',
-    title: 'Laptop',
+    title: 'Asus Laptop',
     amount: 1200,
     date: new Date(2022, 6, 2)
+  },
+  {
+    id: 'e6',
+    title: 'iPhone',
+    amount: 1870,
+    date: new Date(2022, 5, 23)
   }
 ];
 
